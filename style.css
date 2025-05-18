@@ -1,0 +1,33 @@
+
+body {
+  background-color: #222;
+  color: #ddd;
+  box-sizing:border-box;
+
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  color: goldenrod;
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+nav a {
+  float: right;
+  color: gold;
+  text-align: center;
+  padding: 14px 1rem;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav a:hover {
+  background-color: goldenrod;
+  color: black;
+}
+nav a:active {
+  background-color: green;
+  color: gold;
+}
