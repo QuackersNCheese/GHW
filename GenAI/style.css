@@ -3,7 +3,7 @@ a {
     text-decoration: none;
 } 
 a:hover {
-    text-shadow: 2px 2px 8px orangered;
+    text-shadow: 2px 2px 8px dodgerblue;
 }
 body {
     background-color:/*#0A1632;*/#0E2336;
@@ -44,10 +44,15 @@ nav a {
     grid-area: 3 / 4 / 4 / 5;
 }
 article {
-    grid-area: 4/ 1 / 5 / 3; 
     padding: 1em;
     background-color:#122333;
     box-shadow: 2px 2px 8px dodgerblue;
+}
+#ai_research {
+    grid-area: 4/ 1 / 5 / 3; 
+}
+#google_gemini{
+    grid-area: 4 / 3 / 5 / 5;
 }
 section {
     grid-area: 3 / 2 / 4 / 4;
@@ -57,6 +62,7 @@ section {
 }
 section li {
     list-style-type:none;
+    margin: 0.25em;
 }
 footer {
     background-color:#122333;
